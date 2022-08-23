@@ -1,1 +1,0 @@
-print("ok bigpro testxd..")
