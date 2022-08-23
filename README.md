@@ -7,7 +7,6 @@
 <h3>A hub for roblox!</h3>
 
 <a href="https://github.com/Lixalidy/Luacide/issues/" alt="GitHub issues"><img src="https://img.shields.io/github/issues/Lixalidy/Luacide?style=for-the-badge"></a>
-<a href="https://github.com/Lixalidy/Luacide/graphs/contributors/" alt=""><img src="https://img.shields.io/github/contributors/Lixalidy/Luacide?style=for-the-badge"></a>
 
 <div align="center">
 <h2>Get Started</h2>
