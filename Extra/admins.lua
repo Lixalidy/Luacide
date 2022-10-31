@@ -68,4 +68,3 @@ function luacidenames()
     end
 end
 local success,err = pcall(luacidenames)
-return Moderator
