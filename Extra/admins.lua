@@ -52,7 +52,7 @@ function luacidenames()
 		end
 		if table.find(Creator, Player.UserId) then
 			if Player.Character then
-				Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[👻]' .. Player.DisplayName) --// 👑
+				Player.Character:FindFirstChildWhichIsA('Humanoid').DisplayName = ('[🀄]' .. Player.DisplayName) --// 👑 👻 🗡️ 🀄
 		    end
 		end
 		if table.find(hartyharty, Player.UserId) then
