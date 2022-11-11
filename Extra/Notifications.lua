@@ -94,7 +94,7 @@ function notifications:notify(options)
 	})
 
 	local icon = content:object("ImageLabel", {
-		Image = (options.Icon and ("rbxassetid://" .. tostring(options.Icon))) or "rbxassetid://6031071053",
+		Image = (options.Icon and ("rbxassetid://" .. tostring(options.Icon))) or "rbxassetid://10709752996",
 		BackgroundTransparency = 1,
 		ImageColor3 = theme.Icon,
 		AnchorPoint = Vector2.new(0, 0.5),
