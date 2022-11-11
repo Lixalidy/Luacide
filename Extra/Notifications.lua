@@ -48,11 +48,7 @@ local function object(class, properties)
 	})
 end
 
---[[if not ((rs:IsStudio() and game.Players.LocalPlayer.PlayerGui) or game.CoreGui):FindFirstChild("Abstract Notifications") then
-
-end]]
-
-local gui = object("ScreenGui", {
+local gui = object("Luacide Notification", {
 	Parent = (rs:IsStudio() and game.Players.LocalPlayer.PlayerGui) or game.CoreGui
 })
 
