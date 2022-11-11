@@ -48,7 +48,7 @@ local function object(class, properties)
 	})
 end
 
-local gui = object("Luacide Notification", {
+local gui = object("ScreenGui", {
 	Parent = (rs:IsStudio() and game.Players.LocalPlayer.PlayerGui) or game.CoreGui
 })
 
@@ -217,7 +217,7 @@ function notifications:notify(options)
 			task.wait(0.1)
 			mainFrame:tween{BackgroundTransparency = 1, Position = UDim2.new(1, -20, 1, -10)}
 			task.wait(0.25)
-			mainFrame.AbsoluteObject:Destroy()
+			mainFrame:Destroy()
 		end)
 	end
 
