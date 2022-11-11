@@ -217,7 +217,7 @@ function notifications:notify(options)
 			task.wait(0.1)
 			mainFrame:tween{BackgroundTransparency = 1, Position = UDim2.new(1, -20, 1, -10)}
 			task.wait(0.25)
-			mainFrame:Destroy()
+			mainFrame.AbsoluteObject:Destroy()
 		end)
 	end
 
